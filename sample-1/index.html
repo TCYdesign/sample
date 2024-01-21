@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAMPLE 株式会社</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.ico" sizes="16x16" type="image/png">
+</head>
+<body class="overflow-none">
+  <!-- headerここから -->
+  <header>
+    <div id="header-left">
+      <a href="index.html">
+        <img src="img/logo.png" alt="TCYロゴ">
+        <h1>SAMPLE 株式会社</h1>
+      </a>     
+    </div>
+    <div id="header-center">
+      <div id="triangle-left"></div>
+      <div id="triangle-right"></div>
+    </div>
+    <nav id="header-right">
+      <!-- ハンバーガー -->
+      <div class="openbtn1"><span></span><span></span><span></span><span id="menu-span">MENU</span></div>
+      <!-- ハンバーガーここまで -->
+      <ul id="nav">
+        <li class="menu">
+          <a href="about.html">
+            <div class="nav-div">
+              <p>ABOUT<br>
+              <span>会社概要</span></p>
+            </div>
+          </a>
+        </li>
+        <!-- ドロップダウン -->
+        <li class="menu drop-menu">
+          <a href="#product">
+            <div class="nav-div">
+              <p>PRODUCT<br>
+              <span>製品・加工</span></p>
+            </div>
+          </a>
+          <ul class="drop-menu-list">
+            <li class="drop-menu-item">
+              <a href="product-1.html">>  製品一覧</a>
+            </li>
+            <li class="drop-menu-item" id="drop-menu-item2">
+              <a href="product-2.html">>  加工工程</a>
+            </li>
+          </ul>
+        </li>
+        <!-- ドロップここまで -->
+        <li class="menu">
+          <a href="message.html">
+            <div class="nav-div">
+              <p>MESSAGE<br>
+              <span>代表挨拶</span></p>
+            </div>
+          </a> 
+        </li>
+        <li class="menu">
+          <a href="news.html">
+            <div class="nav-div">
+              <p>NEWS<br>
+              <span>お知らせ</span></p>
+            </div>
+          </a>   
+        </li>
+        <li class="menu">
+          <a href="recruit.html">
+            <div class="nav-div">
+              <p>RECRUIT<br>
+              <span>採用情報</span></p>
+            </div>
+          </a>
+        </li>
+        <li class="menu">
+          <a href="access.html">
+            <div class="nav-div">
+              <p>ACCESS<br>
+              <span>アクセス</span></p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- headerここまで -->
+  <!-- -------ハンバーガー内メニュー--------- -->
+  <div class="hamburger">
+    
+    <div id="ham-div">
+      <div id="ham-left">
+        <img src="img/ham-img.jpg" alt="">
+      </div>
+      <div id="ham-right">
+      <ul id="ham-ul">
+        <li class="ham-menu hamu-menu-top">
+          <a href="about.html">
+              <p>ABOUT</p>
+              <span>会社概要</span>
+          </a>
+        </li>
+        <li class="ham-menu">
+          <a href="product-1.html">
+              <p>PRODUCT</p>
+              <span>製品一覧</span>
+          </a>   
+        </li>
+        <li class="ham-menu">
+          <a href="product-2.html">
+              <p>PRODUCT</p>
+              <span id="product2-span">加工工程</span>
+          </a>   
+        </li>
+        <li class="ham-menu">
+          <a href="message.html">
+              <p>MESSAGE</p>
+              <span>代表挨拶　<br>社員の声</span>
+          </a> 
+        </li>
+        <li class="ham-menu">
+          <a href="news.html">
+              <p>NEWS</p>
+              <span>お知らせ</span>
+          </a>   
+        </li>
+        <li class="ham-menu">
+          <a href="recruit.html">
+              <p>RECRUIT</p>
+              <span>採用情報</span>
+          </a>
+        </li>
+        <li class="ham-menu">
+          <a href="access.html">
+              <p>ACCESS</p>
+              <span>アクセス</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    </div>     
+  </div>
+  <main>
+    <div class="main-pic">
+      <div id="main-pic-div">
+      <img  src="img/index/main-pic.jpg" alt="メイン画像">
+      </div>
+      <div class="main-pic-line">
+        <div class="main-pic-text">
+          <h1 class="main-fadeout-h1">人と大地を基に未来へ挑戦</h1>
+          <p class="main-fadeout-p">恵まれた自然の中、大地を対象として自然との調和を目指し<br>
+            人（創造）と技術で明日に挑戦します。</p>
+        </div>
+      </div>
+    </div>
+    <!-- main-picここまで -->
+    <!-- ABOUTタイトルここから -->
+    <article id="about-article">
+      <section>
+        <div id="about">
+          <div class="main-title main-fadeout">
+            <span class="title-left">SAMPLE 株式会社について</span>
+            <span class="title-center"></span>
+            <h2 class="title-right">ABOUT</h2>
+          </div>
+        </div>
+    <!--タイトルここまで-->
+      <div id="about-div" class="wrapper-1500">
+      <div id="about1">
+        <img class="left" src="img/index/about1.png" alt="トラック">
+        <div id="about-text1" class="about-text right">
+          <h3>生産方針</h3>
+          <p>品質・納期・コストを意識し、安定した生産と品質向上のため<br>改善活動を実施しお客様に満足いただけるものづくりを行います。</p>
+        </div>
+      </div>
+      <div id="about2">
+        <div id="about-text2" class="about-text right-2">
+          <h3>安全職場・健康職場</h3>
+          <p>安全と健康に配慮した職場環境づくりと社内教育を推進します。
+            <br>子育て・介護などライフスタイルバランスが取れた働き方が<br>出来るよう取り組みます。</p>
+        </div>
+        <img class="left-2" src="img/index/about2.png" alt="職場環境">
+      </div>
+      <div id="about3">
+        <img class="left-3" src="img/index/about3.png" alt="トラック">
+        <div id="about-text3" class="about-text right-3">
+          <h3>環境方針</h3>
+          <p>信州の美しい自然を後世に残すため環境保全の重要性を認識し<br>法令の遵守・社会に配慮した生産活動を行います。</p>
+        </div>
+      </div>
+      </div>
+      <div class="btn-1 btn-1-fadeout">
+        <a href="about.html"><p>会社概要ページへ</p></a>
+      </div>
+      </section>
+      <!-- PRODUCT -->
+      <section>
+        <div id="product">
+          <div class="main-title main-fadeout2">
+            <span class="title-left title-white">製品・加工</span>
+            <span class="white-center"></span>
+            <h2 class="title-right title-white">PRODUCT</h2>
+          </div>
+          <div id="product-div" class="wrapper">
+            <div class="product">
+              <div class="img-wrap-none">
+              <img src="img/index/product1.jpg" alt="スノーマシン">
+              </div>
+              <div class="btn-2-div">
+                <a href="product-1.html" class="btn-2 bgskew"><span>製品一覧</span></a>
+              </div>
+              <p>伝票１枚で設計→部品製作<span>→完成品納入まで対応します</span></p>
+            </div>
+            <div class="product">
+              <div class="img-wrap-none">
+              <img src="img/index/product2.jpg" alt="溶接">
+              </div>
+              <div class="btn-2-div">
+                <a href="product-2.html" class="btn-2 bgskew"><span>加工工程</span></a>
+              </div>
+              <p>生産に必要な冶具・工具も<span>一貫生産しています</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MESSAGE -->
+      <section>
+        <div id="message">
+          <div class="main-title main-fadeout3">
+            <span class="title-left">代表挨拶</span>
+            <span class="title-center"></span>
+            <h2 class="title-right">MESSAGE</h2>
+          </div>
+          <div class="wrapper">
+            <div id="message-flex">
+              <div id="message-left">
+                <img src="img/hitogata.png" alt="代表">
+              </div>
+              <div id="message-right">
+                <p id="p1">挑戦と創造・技能の集積</p>
+                <p id="p2">メーカーに技術供与できる企業を目指します。</p>
+                <p id="p3">代表取締役社長　SAMPLE </p>
+              </div>
+            </div>
+            <div class="btn-3-div">
+            <a class="btn-3" href="message.html"><span>代表挨拶・社員の声</span></a>
+            </div>
+          </div>
+      </section>
+      <section>
+        <div id="news">
+          <div class="main-title main-fadeout4">
+            <span class="title-left title-white">新着情報</span>
+            <span class="white-center"></span>
+            <h2 class="title-right title-white">NEWS</h2>
+          </div>
+          <div id="news-div" class="wrapper">
+            <h3>NEWS & EVENT</h3>
+            <div class="category category-wrap">
+              <dl>
+                <div class="c-div">
+                  <a href="category/news-category.html"><dt class="news">NEWS</dt></a>
+                </div>
+                <dd class="category-dd1">2024年1月6日</dd>
+                <dd class="category-dd2">ホームページをリニューアルしました</dd>
+              </dl>
+              <dl>  
+                <div class="c-div">
+                  <a href="category/news-category.html"><dt class="news">NEWS</dt></a></div>
+                <dd class="category-dd1">2023年12月28日</dd>
+                <dd class="category-dd2">年末年始休業は12月30日～1月4日までです</dd>
+              </dl>
+              <dl>
+                <div class="c-div">
+                  <a href="category/event-category.html"><dt class="event">EVENT</dt></a>
+                </div>
+                <dd class="category-dd1">2023年12月28日</dd>
+                <dd class="category-dd2">大掃除のあと焼肉大会をしました</dd>
+              </dl>
+              <dl>
+                <div class="c-div">
+                  <a href="category/event-category.html"><dt class="event">EVENT</dt></a>
+                </div>
+                <dd class="category-dd1">2023年10月20日</dd>
+                <dd class="category-dd2">会社説明会を行いました</dd>
+              </dl>
+            </div>
+            <div class="btn-1 btn-1-fadeout2" id="news-btn">
+              <a href="news.html"><p>新着情報一覧</p></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+  <!-- PAGE-TOP -->
+  <div class="pagetop">
+    <div id="background-blue"><p>TOP</p></div>
+    <div id="background-gray">
+      <div class="triangle"><p>▽</p></div>
+      <a href="#header-left"><p>↑ TOP</p></a>
+    </div>
+  </div>
+  <!-- PAGE-TOP -->
+<footer>
+  <div id="footer-flex" class="wrapper">
+    <div id="footer-left">
+      <div>
+      <img src="img/logo.png" alt="TCYロゴ">
+      <h4>SAMPLE 株式会社</h4>
+      </div>
+      <dl>
+        <dt id="dt-top">住所</dt>
+        <dd>〒XXXｰXXXX</dd>
+        <dd id="dd-id">〇〇県〇〇市XXXX-X</dd>
+        <dt>TEL</dt>
+        <dd>XXXX-XX-XXXX</dd>
+        <dt>FAX</dt>
+        <dd>XXXX-XX-XXXX</dd>
+        <dt>E-mail</dt>
+        <dd>XXX@XXXX.jp</dd>
+        <dt>URL</dt>
+        <dd>https:XXXXXXXXXXXXXX</dd>
+      </dl>
+    </div>
+    <div id="footer-right">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3845.354485345097!2d139.74285797623054!3d35.658584831216984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e1!3m2!1sja!2sjp!4v1705813176770!5m2!1sja!2sjp" width="380" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div id="copy">
+  <span>&copy SAMPLE 株式会社</span>
+  </div>
+</footer>
+<script
+src="https://code.jquery.com/jquery-3.7.1.min.js"
+integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

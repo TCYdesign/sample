@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAMPLE 株式会社</title>
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="icon" href="img/favicon.ico" sizes="16x16" type="image/png">
+</head>
+<body class="overflow-none">
+  <!-- headerここから -->
+  <header>
+    <div id="header-left">
+      <a href="index.html">
+        <img src="img/logo.png" alt="TCYロゴ">
+        <h1>SAMPLE 株式会社</h1>
+      </a>     
+    </div>
+    <div id="header-center">
+      <div id="triangle-left"></div>
+      <div id="triangle-right"></div>
+    </div>
+    <nav id="header-right">
+      <!-- ハンバーガー -->
+      <div class="openbtn1"><span></span><span></span><span></span><span id="menu-span">MENU</span></div>
+      <!-- ハンバーガーここまで -->
+      <ul id="nav">
+        <li class="menu">
+          <a href="about.html">
+            <div class="nav-div">
+              <p>ABOUT<br>
+              <span>会社概要</span></p>
+            </div>
+          </a>
+        </li>
+        <!-- ドロップダウン -->
+        <li class="menu drop-menu">
+          <a href="#product">
+            <div class="nav-div">
+              <p>PRODUCT<br>
+              <span>製品・加工</span></p>
+            </div>
+          </a>
+          <ul class="drop-menu-list">
+            <li class="drop-menu-item">
+              <a href="product-1.html">>  製品一覧</a>
+            </li>
+            <li class="drop-menu-item" id="drop-menu-item2">
+              <a href="product-2.html">>  加工工程</a>
+            </li>
+          </ul>
+        </li>
+        <!-- ドロップここまで -->
+        <li class="menu">
+          <a href="message.html">
+            <div class="nav-div">
+              <p>MESSAGE<br>
+              <span>代表挨拶</span></p>
+            </div>
+          </a> 
+        </li>
+        <li class="menu">
+          <a href="news.html">
+            <div class="nav-div">
+              <p>NEWS<br>
+              <span>お知らせ</span></p>
+            </div>
+          </a>   
+        </li>
+        <li class="menu">
+          <a href="recruit.html">
+            <div class="nav-div">
+              <p>RECRUIT<br>
+              <span>採用情報</span></p>
+            </div>
+          </a>
+        </li>
+        <li class="menu">
+          <a href="access.html">
+            <div class="nav-div">
+              <p>ACCESS<br>
+              <span>アクセス</span></p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- headerここまで -->
+  <!-- -------ハンバーガー内メニュー--------- -->
+  <div class="hamburger">
+    
+    <div id="ham-div">
+      <div id="ham-left">
+        <img src="img/ham-img.jpg" alt="">
+      </div>
+      <div id="ham-right">
+      <ul id="ham-ul">
+        <li class="ham-menu hamu-menu-top">
+          <a href="index.html">
+              <p>HOME</p>
+              <span>ホーム</span>
+          </a>
+        </li>
+        <li class="ham-menu">
+          <a href="about.html">
+            <p>ABOUT</p>
+            <span>会社概要</span>
+        </a>
+        </li>
+        <li class="ham-menu">
+          <a href="product-1.html">
+              <p>PRODUCT</p>
+              <span>製品一覧</span>
+          </a>   
+        </li>
+        <li class="ham-menu">
+          <a href="product-2.html">
+              <p>PRODUCT</p>
+              <span id="product2-span">加工工程</span>
+          </a>   
+        </li>
+        <li class="ham-menu">
+          <a href="message.html">
+              <p>MESSAGE</p>
+              <span>代表挨拶　<br>社員の声</span>
+          </a> 
+        </li>
+        <li class="ham-menu">
+          <a href="news.html">
+              <p>NEWS</p>
+              <span>お知らせ</span>
+          </a>   
+        </li>
+        <li class="ham-menu">
+          <a href="recruit.html">
+              <p>RECRUIT</p>
+              <span>採用情報</span>
+          </a>
+        </li>
+        <li class="ham-menu">
+          <a href="access.html">
+              <p>ACCESS</p>
+              <span>アクセス</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    </div>     
+  </div>
+  <main>
+    <div class="main-pic">
+      <img id="main-pic" src="img/about/main-pic.jpg" alt="メイン画像">
+      <div class="main-pic-line">
+        <div class="main-pic-text">
+          <img id="main-logo" class="main-logo" src="img/logo.png" alt="TCYロゴ">
+          <p class="main-logo">黒は大地、ブルーは空（夢）とし、創造の大地に根をおろし<br>大空に向かって邁進するSAMPLE株式会社です</p>
+        </div>
+      </div>
+    </div>
+    <!-- main-picここまで -->
+    <!-- ABOUTタイトルここから -->
+    <article>
+      <section>
+        <div id="about">
+          <div class="main-title main-fadeout">
+            <span class="title-left">SAMPLE株式会社について</span>
+            <span class="title-center"></span>
+            <h2 class="title-right">ABOUT</h2>
+          </div>
+        </div>
+    <!--タイトルここまで-->
+      <div id="about-div" class="wrapper-1500">
+      <div id="about1">
+        <img class="left" src="img/index/about1.png" alt="トラック">
+        <div id="about-text1" class="about-text right">
+          <h3>生産方針</h3>
+          <p>品質・納期・コストを意識し、安定した生産と品質向上のため<br>改善活動を実施しお客様に満足いただけるものづくりを行います。</p>
+        </div>
+      </div>
+      <div id="about2">
+        <div id="about-text2" class="about-text right-2">
+          <h3>安全職場・健康職場</h3>
+          <p>安全と健康に配慮した職場環境づくりと社内教育を推進します。
+            <br>子育て・介護などライフスタイルバランスが取れた働き方が<br>出来るよう取り組みます。</p>
+        </div>
+        <img class="left-2" src="img/index/about2.png" alt="職場環境">
+      </div>
+      <div id="about3">
+        <img class="left-3" src="img/index/about3.png" alt="トラック">
+        <div id="about-text3" class="about-text right-3">
+          <h3>環境方針</h3>
+          <p>信州の美しい自然を後世に残すため環境保全の重要性を認識し<br>法令の遵守・社会に配慮した生産活動を行います。</p>
+        </div>
+      </div>
+     </div>
+    </section>
+    <section>
+    <div class="blue-back">
+      <div>
+      <div id="blue1" class="blue1">
+        <h4><span>社内一貫</span><span>生産</span></h4>
+        <p>品質・納期・コストを意識し、安定した生産と品質向上のため<br>改善活動を実施しお客様に満足いただけるものづくりを行います。</p>
+      </div>
+      <div id="blue2" class="blue2">
+        <h4><span>加工冶具</span><span>内製</span></h4>
+        <p>現場に合わせた加工冶具の制作、<br>設変・トラブルに迅速な対応をいたします。</p>
+      </div>
+      <div id="blue3" class="blue3">
+        <h4><span>作業者工数</span><span>移動</span></h4>
+        <p>さまざまな工程を経験し個人能力を向上、<br>一時的な高負荷に対し作業者を移動し平準化いたします。</p>
+      </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="gray-back">
+      <h5 class="h5-fadeout">会社概要</h5>
+    </div>
+    <div id="about-flex" class="wrapper-about">
+      <div id="about-flex-left">
+        <img id="about-pic1" class="about-pic-fadeout" src="img/about/about-1.png" alt="航空写真">
+        <img id="about-pic2" class="about-pic-fadeout2" src="img/about/about-2.jpg" alt="工場写真">
+      </div>
+      <div id="about-flex-right">
+        <dl>
+          <dt>会社名</dt>
+          <dd>SAMPLE株式会社</dd>
+        </dl>
+        <dl>
+        <dt>創業</dt>
+        <dd>1966年（昭和41年）2月10日</dd>
+        </dl>
+        <dl>
+        <dt><span>代表取締役</span><span>社長</span></dt>
+        <dd>SAMPLE NAME</dd>
+        </dl>
+        <dl>
+        <dt>資本金</dt>
+        <dd>4000万円</dd>
+        </dl>
+        <dl>
+        <dt>従業員</dt>
+        <dd>48人(うち女性：3人)</dd>
+        </dl>
+        <dl>
+        <dt>事業内容</dt>
+        <dd>農業機械・建設機械等の金属加工<br>切断/プレス/切削/板金/溶接/塗装/組立</dd>
+        </dl>
+        <dl>
+        <dt>本社</dt>
+        <dd>〒XXX-XXXX</dd>
+        <dd><span>〇〇県〇〇市XXXX-X</span><span>(XX工場団地)</span></dd>
+        </dl>
+        <dl>
+        <dt>敷 地</dt>
+        <dd>14,850㎡</dd>
+        </dl>
+        <dl>
+        <dt>工場</dt>
+        <dd>6,800㎡</dd>
+        <dd><span>材料工場・主工場・塗装工場・</span><span>組立工場・管理事務所</span></dd>
+        </dl>
+      </div>
+    </div>
+    <div id="partner-flex" class="wrapper-about">
+      <div id="partner-left">
+        <h5 class="A8C0D1">主要納品先</h5>
+        <div class="A8C0D1-p">
+        <p class="gojuuonn"> 【 五十音順 】 </p>
+        <div class="A8C0D1-p-div">
+        <p>㈱SAMPLE <br><span class="span">(農業用機械、芝生管理機器)</span></p>
+        <p>SAMPLE㈱ <br><span class="span">(スキーリゾート開発)</span></p>
+        <p>㈱SAMPLE <br><span>(建設機械)</span></p>
+        <p> ㈱SAMPLE <br><span>(建設機械、産業機械)</span></p>
+        <p>SAMPLE㈱ <br><span>(農業用機械)</span></p>
+        <p>㈱SAMPLE <br><span>(総合商社)</span></p>
+        <p>㈱SAMPLE<br><span>(高所作業車、特殊車両)</span></p>
+        </div>
+        </div>
+      </div>
+      <div id="partner-right">
+        <h5 class="A8C0D1">取引銀行</h5>
+        <div class="A8C0D1-p">
+        <p class="gojuuonn"> 【 五十音順 】 </p>
+        <div class="A8C0D1-p-div">
+        <p>SAMPLE・SAMPLE銀行・SAMPLE銀行・SAMPLE金庫</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="enkaku">
+    <div class="gray-back">
+      <h5 class="h5-fadeout2">沿革</h5>
+    </div>
+    <dl id="about-dl">
+    <dt>1966年2月</dt>
+    <dd>SAMPLE NAMEがXXXX1丁目1番16号にてSAMPLEを創業</dd>
+    <dt>1967年1月</dt>
+    <dd>資本金100万円にてSAMPLE有限会社を設立</dd>
+    <dt>1968年11月</dt>
+    <dd>工場建設に伴い資本金400万円に増資</dd>
+    <dt>1969年1月</dt>
+    <dd>新工場落成によりXX市XX区XX8番10号へ移転</dd>
+    <dt>1970年5月</dt>
+    <dd><span>XXXX町XXX6103-1（現：XXXX市XXXX6103-1）に</span><span>SAMPLE工場を設置</span></dd>
+    <dt>1970年6月</dt>
+    <dd>資本金620万円に増資</dd>
+    <dt>1973年4月</dt>
+    <dd>資本金2,000万円に増資</dd>
+    <dt>1982年12月</dt>
+    <dd>溶接ロボットの導入を本格化、ロボット化を推進する</dd>
+    <dt>1983年3月</dt>
+    <dd>ロボット溶接専用工場を増築、傍系会社明科精機を吸収合併</dd>
+    <dt>1986年3月</dt>
+    <dd>資本金4,000万円に増資、XXXX団地進出</dd>
+    <dt>1989年6月</dt>
+    <dd>塗装工場を新設、すべての業務をXXXX工業団地へ集約</dd>
+    <dt>1992年2月</dt>
+    <dd>SAMPLE株式会社に組織を変更</dd>
+    <dt>1992年9月</dt>
+    <dd>2ｋｗレーザー加工システムを導入 </dd>
+    <dt>1995年2月</dt><dd>初代社長、SAMPLE　NAMEが会長に就任、副社長、SAMPLE　NAMEが2代目社長へ就任</dd>
+    <dt>1995年11月</dt>
+    <dd>完成品受注を開始</dd>
+    <dt>1996年10月</dt>
+    <dd><span>組立工場を新設し材料工場・主工場・塗装工場・組立工場による</span><span>一貫生産体制を確立</span></dd>
+    <dt>1999年9月</dt>
+    <dd>乗用型スノーマシンのライセンス生産を開始</dd>
+    <dt>2001年8月</dt>
+    <dd>CAD・CAMシステムを導入</dd>
+    <dt>2003年4月</dt>
+    <dd>トレーキャッパーにて特許を取得</dd>
+    <dt>2003年8月</dt>
+    <dd>4ｋｗレーザー加工機（無人運転システム）を導入</dd>
+    <dt>2005年3月</dt>
+    <dd>高濃度酸素機器4Lタイプの生産を開始</dd>
+    <dt>2007年10月</dt>
+    <dd>高気圧・高濃度酸素カプセルと供給装置40LタイプのOEM生産を開始</dd>
+    <dt>2008年2月</dt>
+    <dd>本店登記をXX市からXXX市へ移転、XX営業所を開設</dd>
+    <dt>2009年3月</dt>
+    <dd>創業者、SAMPLE　NAMEが地域商工業の振興に寄与したとして旭日雙光章を受賞</dd>
+    <dt>2016年2月</dt>
+    <dd>創業50周年 </dd>
+    </dl>
+    <!-- PAGE-TOP -->
+  <div class="pagetop">
+    <div id="background-blue"><p>TOP</p></div>
+    <div class="triangle"><p>▽</p></div>
+    <div id="background-gray">
+      <a href="#header-left"><p>↑ TOP</p></a>
+    </div>
+  </div>
+  <!-- PAGE-TOP -->
+  </section>
+  </article>
+  </main>
+  <footer>
+    <div id="footer-flex" class="wrapper">
+      <div id="footer-left">
+        <div>
+        <img src="img/logo.png" alt="TCYロゴ">
+        <h4>SAMPLE 株式会社</h4>
+        </div>
+        <dl>
+          <dt id="dt-top">住所</dt>
+          <dd>〒XXXｰXXXX</dd>
+          <dd id="dd-id">〇〇県〇〇市XXXX-X</dd>
+          <dt>TEL</dt>
+          <dd>XXXX-XX-XXXX</dd>
+          <dt>FAX</dt>
+          <dd>XXXX-XX-XXXX</dd>
+          <dt>E-mail</dt>
+          <dd>XXX@XXXX.jp</dd>
+          <dt>URL</dt>
+          <dd>https:XXXXXXXXXXXXXX</dd>
+        </dl>
+      </div>
+      <div id="footer-right">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3845.354485345097!2d139.74285797623054!3d35.658584831216984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e1!3m2!1sja!2sjp!4v1705813176770!5m2!1sja!2sjp" width="380" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div id="copy">
+    <span>&copy SAMPLE 株式会社</span>
+    </div>
+  </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+  <script src="js/about.js"></script>
+  </body>
+  </html>
