@@ -991,7 +991,6 @@ header {
   outline: none;
   transition: ease 1s;
   box-shadow: 0px 3px rgba(66, 92, 135, 0.7);
-  border-radius: 10px;
 }
 
 .btn-2 span {
@@ -1108,7 +1107,7 @@ animation: skewanime .5s forwards;
 
   .btn-2{
     font-size: 20px;
-    padding: 8px 15px;
+    padding: 5px 15px;
     width: 150px;
   }
 
@@ -1924,7 +1923,7 @@ iframe {
   }
   
   /* PRODUCT画像アニメーション */
-  .img-wrap-none {
+  .img-wrap-none,.img-wrap-none2 {
     opacity: 0;
   }
 

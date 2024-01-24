@@ -136,6 +136,14 @@ $(window).scroll(function () {
       $(".img-wrap-none").removeClass("img-wrap");
     }
   });
+  $('.img-wrap-none2').each(function () {
+    const position = $(this).offset().top;
+    if (scrollAmount > position - windowHeight + 100) {
+      $(this).addClass('img-wrap');
+    }else {
+      $(".img-wrap-none2").removeClass("img-wrap");
+    }
+  });
 });
 
 
